@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Admin",
+      "lastname": "Boss",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "type": "admin"
+    },
+    {
+      "id": 2,
+      "firstname": "Dong",
+      "lastname": "Le Quang",
+      "email": "lequangdong@gmail.com",
+      "password": "123123",
+      "type": "member"
+    },
+    {
+      "firstname": "DONG",
+      "lastname": "LE QUANG",
+      "email": "leeee@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "products" :[
+    {
+      "id" : 1,
+      "name" : "Mỹ phẩm Châu Âu 2012",
+      "price": 230000,
+      "image" : "/asset/two.jpg",
+      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "rating": 4,
+      "quantity" : 6,
+      "ratingScore": 0,
+      "type": "Lipstick",
+      "date" : "20200901",
+      "status": "Hot",
+      "view" : 0
+    },
+    {
+      "id" : 2,
+      "name" : "Son liptopn",
+      "price": 350000,
+      "image" : "/asset/three.jpg",
+      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "rating": 5,
+      "quantity" : 6,
+      "ratingScore": 0,
+      "type": "Coconut Oil",
+      "date" : "20200902",
+      "status": "Hot",
+      "view" : 0
+    },
+    {
+      "id" : 3,
+      "name" : "Cao dừa nguyên chất",
+      "price": 150000,
+      "image" : "/asset/five.jpg",
+      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "rating": 2,
+      "quantity" : 6,
+      "ratingScore": 0,
+      "type": "Deborah",
+      "date" : "20200903",
+      "status": "Hot",
+      "view" : 1
+    },
+    {
+      "id" : 4,
+      "name" : "Nước hoa Paris",
+      "price": 1350000,
+      "image" : "/asset/four.jpg",
+      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "rating": 1,
+      "quantity" : 6,
+      "ratingScore": 0,
+      "type": "Perfume",
+      "date" : "20200904",
+      "status": "Hot",
+      "view" : 1
+    },
+    {
+      "id" : 5,
+      "name" : "Thanh son nhập khẩu",
+      "price": 3500300,
+      "image" : "/asset/five.jpg",
+      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "rating": 3,
+      "quantity" : 6,
+      "ratingScore": 0,
+      "type": "Lipstick",
+      "date" : "20200905",
+      "status": "New",
+      "view" : 0
+    },
+    {
+      "id" : 6,
+      "name" : "Nước hoa mật ong 2000",
+      "price": 350000,
+      "image" : "/asset/2-768.jpg",
+      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "rating": 3,
+      "quantity" : 6,
+      "ratingScore": 0,
+      "type": "Lipstick",
+      "date" : "20200906",
+      "status": "New",
+      "view" : 1
+    },
+    {
+      "id" : 7,
+      "name" : "Kem dưỡng da Đài Loan",
+      "price": 350000,
+      "image" : "/asset/three.jpg",
+      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "rating": 0,
+      "quantity" : 6,
+      "ratingScore": 0,
+      "type": "Lipstick",
+      "date" : "20200907",
+      "status": "Hot",
+      "view" : 0
+    }
+  ]
+}

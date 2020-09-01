@@ -1,0 +1,87 @@
+@import '../../scss/resetHeader';
+@import '../../scss/variable';
+@import '../../scss/font';
+@import '../../scss/mixin';
+
+@mixin formRegister {
+  h4 {
+    @include fontAndWeight($fontOpen);
+    @include fontSizeAndColor(18px, #202020);
+    margin-bottom: 1rem;
+  }
+  p {
+    @include fontSizeAndColor(12px, #000000);
+    @include fontAndWeight($fontOpen);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.breadcrumb {
+  border-bottom: 1px dashed #e7e7e7;
+  span {
+    &:nth-child(1) {
+      i {
+        color: $colorGreen;
+      }
+    }
+    &:nth-child(2) {
+      color: $colorGreen;
+    }
+  }
+}
+
+.register {
+  width: 83%;
+  margin: 20px auto;
+  h3 {
+    @include fontSizeAndColor(28px, #212121);
+    margin-bottom: 2rem;
+    @include fontAndWeight($fontOpen);
+  }
+  &__form {
+    background-color: #f2f2f2;
+    padding: 50px;
+    &-person {
+      @include formRegister();
+      span {
+        @include fontSizeAndColor(12px, #000000);
+        @include fontAndWeight($fontOpen);
+        font-weight: 600;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+        display: block;
+      }
+    }
+    &-login {
+      @include formRegister();
+    }
+    &-button {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      button {
+        @include fontSizeAndColor(12px, #ffffff);
+        @include fontAndWeight($fontOpen);
+        background-color: #000;
+        border: 0;
+        padding: 8px 12px;
+        .fa-long-arrow-alt-left {
+          font-size: 18px;
+          margin-right: 8px;
+        }
+        a {
+          text-decoration: none;
+          @include fontSizeAndColor(12px, #ffffff);
+          @include fontAndWeight($fontOpen);
+        }
+      }
+    }
+  }
+}

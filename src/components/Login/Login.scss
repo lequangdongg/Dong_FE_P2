@@ -1,0 +1,83 @@
+@import '../../scss/resetHeader';
+@import '../../scss/variable';
+@import '../../scss/font';
+@import '../../scss/mixin';
+
+@mixin fontFontWeight {
+  @include fontSizeAndColor(12px, #000000);
+  @include fontAndWeight($fontOpen);
+  font-weight: 600;
+}
+
+.breadcrumb {
+  border-bottom: 1px dashed #e7e7e7;
+  span {
+    &:nth-child(1) {
+      i {
+        color: $colorGreen;
+      }
+    }
+    &:nth-child(2) {
+      color: $colorGreen;
+    }
+  }
+}
+
+.login {
+  width: 83%;
+  margin: 20px auto;
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      @include fontSizeAndColor(28px, #212121);
+      margin-bottom: 2rem;
+      @include fontAndWeight($fontOpen);
+    }
+    a {
+      @include buttonBlack();
+      text-decoration: none;
+    }
+  }
+  &__form {
+    background-color: #f2f2f2;
+    padding: 50px;
+    &-custormer {
+      h4 {
+        @include fontAndWeight($fontOpen);
+        @include fontSizeAndColor(18px, #202020);
+        margin-bottom: 1rem;
+      }
+      span {
+        @include fontFontWeight();
+        margin-bottom: 3rem;
+        display: block;
+      }
+      form {
+        p {
+          @include fontFontWeight();
+          margin-bottom: 0.5rem;
+        }
+        input {
+          width: 100%;
+          padding: 6px;
+          border: 1px solid #e0e0e0;
+          margin-bottom: 0.5rem;
+        }
+        .login__form-button {
+          @include buttonBlack();
+        }
+      }
+    }
+    &-button {
+      margin-top: 2rem;
+      span {
+        @include fontFontWeight();
+        margin-right: 3rem;
+      }
+      button {
+        @include buttonBlack();
+      }
+    }
+  }
+}
