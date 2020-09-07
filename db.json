@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "type": "admin"
+    },
+    {
+      "id": 2,
+      "firstname": "Dong",
+      "lastname": "Le Quang",
+      "email": "lequangdong@gmail.com",
+      "password": "123123",
+      "type": "member"
+    },
+    {
+      "name": "Dong",
+      "email": "lequangdongg@gmail.com",
+      "password": "123123",
+      "type": "member",
+      "id": 3
+    }
+  ]
+}
