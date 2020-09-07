@@ -6,7 +6,9 @@
       "lastname": "Boss",
       "email": "admin@gmail.com",
       "password": "admin",
-      "type": "admin"
+      "type": "admin",
+      "address": "Da Nang",
+      "phone": "0905765765"
     },
     {
       "id": 2,
@@ -14,114 +16,200 @@
       "lastname": "Le Quang",
       "email": "lequangdong@gmail.com",
       "password": "123123",
-      "type": "member"
+      "type": "member",
+      "address": "Quang Nam",
+      "phone": "0905765765"
     },
     {
-      "firstname": "DONG",
+      "firstname": "DONG123123",
       "lastname": "LE QUANG",
       "email": "leeee@gmail.com",
       "password": "123456",
-      "id": 3
+      "id": 3,
+      "address": "Hue",
+      "phone": "0905765765"
     }
   ],
-  "products" :[
+  "products": [
     {
-      "id" : 1,
-      "name" : "Mỹ phẩm Châu Âu 2012",
+      "id": 1,
+      "name": "Mỹ phẩm Châu Âu 2012",
       "price": 230000,
-      "image" : "/asset/two.jpg",
-      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "image": "/asset/two.jpg",
+      "description": "Không thể phủ nhận, thời trang và phong cách chính là “tuyên ngôn” không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu “mạnh tay” để sở hữu những món đồ yêu thích.",
       "rating": 4,
-      "quantity" : 6,
+      "quantity": 6,
       "ratingScore": 0,
       "type": "Lipstick",
-      "date" : "20200901",
+      "date": "20200901",
       "status": "Hot",
-      "view" : 0
+      "view": 0
     },
     {
-      "id" : 2,
-      "name" : "Son liptopn",
+      "id": 2,
+      "name": "Son liptopn",
       "price": 350000,
-      "image" : "/asset/three.jpg",
-      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "image": "/asset/three.jpg",
+      "description": "Không thể phủ nhận, thời trang và phong cách chính là “tuyên ngôn” không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu “mạnh tay” để sở hữu những món đồ yêu thích.",
       "rating": 5,
-      "quantity" : 6,
+      "quantity": 6,
       "ratingScore": 0,
       "type": "Coconut Oil",
-      "date" : "20200902",
+      "date": "20200902",
       "status": "Hot",
-      "view" : 0
+      "view": 0
     },
     {
-      "id" : 3,
-      "name" : "Cao dừa nguyên chất",
+      "id": 3,
+      "name": "Cao dừa nguyên chất",
       "price": 150000,
-      "image" : "/asset/five.jpg",
-      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "image": "/asset/five.jpg",
+      "description": "Không thể phủ nhận, thời trang và phong cách chính là “tuyên ngôn” không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu “mạnh tay” để sở hữu những món đồ yêu thích.",
       "rating": 2,
-      "quantity" : 6,
+      "quantity": 6,
       "ratingScore": 0,
       "type": "Deborah",
-      "date" : "20200903",
+      "date": "20200903",
       "status": "Hot",
-      "view" : 1
+      "view": 1
     },
     {
-      "id" : 4,
-      "name" : "Nước hoa Paris",
+      "id": 4,
+      "name": "Nước hoa Paris",
       "price": 1350000,
-      "image" : "/asset/four.jpg",
-      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "image": "/asset/four.jpg",
+      "description": "Không thể phủ nhận, thời trang và phong cách chính là “tuyên ngôn” không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu “mạnh tay” để sở hữu những món đồ yêu thích.",
       "rating": 1,
-      "quantity" : 6,
+      "quantity": 6,
       "ratingScore": 0,
       "type": "Perfume",
-      "date" : "20200904",
+      "date": "20200904",
       "status": "Hot",
-      "view" : 1
+      "view": 1
     },
     {
-      "id" : 5,
-      "name" : "Thanh son nhập khẩu",
+      "id": 5,
+      "name": "Thanh son nhập khẩu",
       "price": 3500300,
-      "image" : "/asset/five.jpg",
-      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "image": "/asset/five.jpg",
+      "description": "Không thể phủ nhận, thời trang và phong cách chính là “tuyên ngôn” không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu “mạnh tay” để sở hữu những món đồ yêu thích.",
       "rating": 3,
-      "quantity" : 6,
+      "quantity": 6,
       "ratingScore": 0,
       "type": "Lipstick",
-      "date" : "20200905",
+      "date": "20200905",
       "status": "New",
-      "view" : 0
+      "view": 0
     },
     {
-      "id" : 6,
-      "name" : "Nước hoa mật ong 2000",
+      "id": 6,
+      "name": "Nước hoa mật ong 2000",
       "price": 350000,
-      "image" : "/asset/2-768.jpg",
-      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "image": "/asset/2-768.jpg",
+      "description": "Không thể phủ nhận, thời trang và phong cách chính là “tuyên ngôn” không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu “mạnh tay” để sở hữu những món đồ yêu thích.",
       "rating": 3,
-      "quantity" : 6,
+      "quantity": 6,
       "ratingScore": 0,
       "type": "Lipstick",
-      "date" : "20200906",
+      "date": "20200906",
       "status": "New",
-      "view" : 1
+      "view": 1
     },
     {
-      "id" : 7,
-      "name" : "Kem dưỡng da Đài Loan",
+      "id": 7,
+      "name": "Kem dưỡng da Đài Loan",
       "price": 350000,
-      "image" : "/asset/three.jpg",
-      "description": "Hương thơm gợi cảm này kết hợp cùng cá tính của bạn chắc chắn sẽ rất hoàn hảo đặc biệt vào những buối tối mùa hè trên bãi biển.",
+      "image": "/asset/three.jpg",
+      "description": "Không thể phủ nhận, thời trang và phong cách chính là “tuyên ngôn” không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu “mạnh tay” để sở hữu những món đồ yêu thích.",
       "rating": 0,
-      "quantity" : 6,
+      "quantity": 6,
       "ratingScore": 0,
       "type": "Lipstick",
-      "date" : "20200907",
+      "date": "20200907",
       "status": "Hot",
-      "view" : 0
+      "view": 0
+    }
+  ],
+  "order": [
+    {
+      "idUser": 2,
+      "date": "2020/9/7 22:9:4",
+      "totalPrice": 350000,
+      "cart": [
+        {
+          "idProduct": 2,
+          "amout": 1
+        }
+      ],
+      "address": "Quang Nam",
+      "phone": "0905765765",
+      "image": "/asset/three.jpg",
+      "name": "Son liptopn",
+      "id": 1
+    },
+    {
+      "idUser": 2,
+      "date": "2020/9/7 22:9:9",
+      "totalPrice": 1350000,
+      "cart": [
+        {
+          "idProduct": 4,
+          "amout": 1
+        }
+      ],
+      "address": "Quang Nam",
+      "phone": "0905765765",
+      "image": "/asset/four.jpg",
+      "name": "Nước hoa Paris",
+      "id": 2
+    },
+    {
+      "idUser": 2,
+      "date": "2020/9/7 22:9:13",
+      "totalPrice": 3500300,
+      "cart": [
+        {
+          "idProduct": 5,
+          "amout": 1
+        }
+      ],
+      "address": "Quang Nam",
+      "phone": "0905765765",
+      "image": "/asset/five.jpg",
+      "name": "Thanh son nhập khẩu",
+      "id": 3
+    },
+    {
+      "idUser": 2,
+      "date": "2020/9/7 22:33:27",
+      "totalPrice": 350000,
+      "cart": [
+        {
+          "idProduct": 6,
+          "amout": 1
+        }
+      ],
+      "address": "Quang Nam",
+      "phone": "0905765765",
+      "image": "/asset/2-768.jpg",
+      "name": "Nước hoa mật ong 2000",
+      "id": 4
+    },
+    {
+      "idUser": 3,
+      "date": "2020/9/7 23:2:59",
+      "totalPrice": 150000,
+      "cart": [
+        {
+          "idProduct": 3,
+          "amout": 1
+        }
+      ],
+      "address": "Hue",
+      "phone": "0905765765",
+      "image": "/asset/five.jpg",
+      "name": "Cao dừa nguyên chất",
+      "id": 5
     }
   ]
 }

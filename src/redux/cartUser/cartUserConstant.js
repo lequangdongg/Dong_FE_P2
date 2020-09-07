@@ -1,0 +1,3 @@
+export const ORDER_PRODUCT = 'ORDER_PRODUCT';
+export const GET_PRODUCT = 'GET_PRODUCT';
+export const DELETE_PRODUCT = 'DELETE_PRODUCT';
